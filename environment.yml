@@ -190,6 +190,9 @@ dependencies:
   - pip=22.3.1
 
   - pip:
+    # jupyer requirements
+    - jupyter_server==1.23.4
+    - notebook==6.5.2
 
     # visualization for ml datasets
     - facets-overview==1.0.0
