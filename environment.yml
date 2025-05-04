@@ -2,7 +2,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8.15
+  - python=3.10.17
 
   # jupyer requirements
   - notebook==6.5.6
@@ -17,7 +17,8 @@ dependencies:
   - nbgitpuller=1.1.1
 
   # nbgrader and ngshare for instructors to create courses and grade assignments
-  - nbgrader=0.8.1
+  - nbgrader=0.9.5
+  - nbclassic=1.1.0
 
   # scipy stack for general scientific computation
   - numpy=1.23.5
