@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python=3.10.17
   - python_abi=3.10
+  - openssl=3.5.0
 
   # jupyer requirements
   - notebook==7.4.1
@@ -184,10 +185,10 @@ dependencies:
   - r-maptools=1.1_5
 
   # c++ kernel
-  - xeus-cling=0.13.0
+  - xeus-cling=0.15.3
 
   # sagemath (kernel included)
-  - sage=9.4
+  - sage=10.6
 
   # ipyparallel
   - ipyparallel=8.4.1
