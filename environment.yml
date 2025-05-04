@@ -3,9 +3,10 @@ channels:
   - defaults
 dependencies:
   - python=3.10.17
+  - python_abi=3.10
 
   # jupyer requirements
-  - notebook==6.5.6
+  - notebook==7.4.1
 
   # support multiple kernels in multiple conda envs
   - nb_conda_kernels=2.3.1
