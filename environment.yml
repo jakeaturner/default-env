@@ -3,6 +3,7 @@ channels:
   - defaults
 dependencies:
   - python=3.8.15
+  - jupyter-server<2.0.0
 
   # jupyer requirements
   #- notebook==7.4.1
